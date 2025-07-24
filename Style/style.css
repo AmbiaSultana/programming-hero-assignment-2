@@ -105,7 +105,7 @@ banner p {
 .lover-container{
     display: flex;
     justify-content: space-evenly;
-    margin: 80px 100px;
+    margin: 120px 100px;
     gap: -50px;
 }
 .lover-h{
@@ -126,7 +126,33 @@ banner p {
     text-align: center;
     margin-top: 30px;
     gap: 15px;
+
 }
 .foot-p{
     color: rgba(0, 0, 0, 0.5);
+}
+#badge{
+    height: 200px;
+    width: 200px;
+    margin-left: -200px;
+    margin-top: -100px;
+    
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+.box-1{
+    background-image: url('../assets/deal-bloom.png');
+    background-repeat: no-repeat;
+}
+.box-3{
+    background-image: url('../assets/deal-zabo.png');
+    background-repeat: no-repeat;
+}
+.box-2{
+    background-image: url('../assets/deal-ana.png');
+    background-repeat: no-repeat;
 }
