@@ -1,0 +1,117 @@
+body {
+    margin: 0 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+banner h1 {
+    font-size: 60px;
+
+}
+
+banner p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.yellow {
+    color: #E95A08;
+    font-size: 60px;
+}
+
+.banner {
+    background-image: url('../assets/hero-flower.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: right bottom;
+    height: 450px;
+    margin-top: 40px;
+    padding-top: 70px;
+}
+
+.cart {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cart-1 {
+    border: 1px solid white;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 90px;
+    /* width: 100%; */
+    background-color: #E95A08;
+    border: none;
+    gap: 20px;
+}
+
+.our {
+    color: #E95A08;
+    font-size: 35px;
+}
+
+.plants {
+    font-size: 35px;
+}
+.plant-para{
+    color: rgba(0, 0, 0, 0.5);
+}
+.our-plants {
+    text-align: center;
+}
+.color{
+    text-align: center;
+    color: white;
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.inline{
+    flex-direction: column;
+}
+.submit{
+    padding: 10px 40px;
+}
+.submit-1{
+    background-color: #E95A08;
+    border: none;
+    color: white;
+}
+.lover-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 100px;
+    gap: -50px;
+}
+.lover-h{
+    font-size: 30px;
+    margin-top: 60px;
+}
+.li-color{
+    color: rgba(0, 0, 0, 0.5);
+}
