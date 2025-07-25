@@ -207,5 +207,35 @@ banner p {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    
+    .lover-container{
+        display: inline;;
+    }
+    .text{
+        margin-left:  100px;
+    }
+    .box-container{
+        flex-direction: column;
+    }
+    .box-1{
+        border-radius: 20px;
+        width: 100%;
+        padding: auto;
+        margin: 20px 60px;
+    }
+    .box-2{
+        border-radius: 20px;
+        width: 100%;
+        padding: auto;
+        margin: 20px 60px;
+    }
+    .box-3{
+        border-radius: 20px;
+        /* width: 100%; */
+        padding: auto;
+        margin: 20px 60px;
+        /* padding-right: 50px; */
+        /* padding-top: -10px; */
+        text-align: center;
+        display: inline;
+    }
 }
